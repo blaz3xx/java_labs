@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-// a card without counting lifts (half day, N days, season)
+// a card without counting lifts
 public class UnlimitedSkiPass extends SkiPass {
 
     public UnlimitedSkiPass(int id, SkiPassType type, LocalDate validFrom, LocalDate validUntil) {
@@ -15,5 +15,6 @@ public class UnlimitedSkiPass extends SkiPass {
     @Override
     public void useLift() {
         // nothing to count
+        // -_- 
     }
 }

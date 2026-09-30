@@ -17,10 +17,8 @@ public class Main {
     static SkiPassSystem system = new SkiPassSystem();
     static Turnstile turnstile = new Turnstile(system);
 
-    // the turnstile's clock; it starts inside the ski season and can be changed from the menu
     static LocalDateTime now = LocalDateTime.of(2027, 1, 11, 10, 0);
 
-    // asks again until the user enters a whole number from min to max
     static int readInt(String prompt, int min, int max) {
         while (true) {
             System.out.print(prompt);
@@ -30,7 +28,6 @@ public class Main {
                     return number;
                 }
             } catch (NumberFormatException e) {
-                // not a number, ask again
             }
             System.out.println("Enter a number from " + min + " to " + max + ".");
         }

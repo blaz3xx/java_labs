@@ -45,7 +45,6 @@ public abstract class SkiPass {
         return hour >= type.getFromHour() && hour < type.getToHour();
     }
 
-    // each kind of card decides this in its own way
     public abstract boolean hasLiftsLeft();
 
     public abstract void useLift();
