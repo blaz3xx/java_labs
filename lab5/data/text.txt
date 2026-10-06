@@ -1,0 +1,6 @@
+Java I/O streams read and write data.
+Потоки введення-виведення дозволяють читати та записувати дані.
+Short line.
+This line has the largest number of words in the whole file, so the program should print it.
+
+Останній рядок файлу.
