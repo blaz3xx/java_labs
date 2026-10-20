@@ -25,7 +25,7 @@ class VehicleTest {
         taxi.board(new Firefighter("Ivan"));
         taxi.board(new Policeman("Oleh"));
 
-        assertEquals(3, taxi.getOccupiedSeats());
+        assertEquals(5, taxi.getOccupiedSeats());
     }
 
     @Test

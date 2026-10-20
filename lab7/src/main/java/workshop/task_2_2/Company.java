@@ -8,7 +8,6 @@ public class Company {
 
     private final String name;
     private final List<Customer> customers = new ArrayList<>();
-    // suppliers are array based.
     private Supplier[] suppliers = new Supplier[0];
 
     public Company(String name) {
@@ -38,7 +37,6 @@ public class Company {
     }
 
     public void addSupplier(Supplier supplier) {
-        // need to replace the current array of suppliers with another, larger array
 
         final Supplier[] currentSuppliers = this.suppliers;
         this.suppliers = new Supplier[currentSuppliers.length + 1];

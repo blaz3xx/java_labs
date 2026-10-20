@@ -39,6 +39,7 @@ public class Main {
         }
     }
 
+    // ---------- Task 1 ----------
     static void longestLine() {
         String path = readNotEmpty("Text file (e.g. data/text.txt): ");
         try {
@@ -58,6 +59,7 @@ public class Main {
         }
     }
 
+    // ---------- Task 3 ----------
     static void cipherMenu() {
         System.out.println("1 - Encrypt a file");
         System.out.println("2 - Decrypt a file");
@@ -97,6 +99,7 @@ public class Main {
         }
     }
 
+    // ---------- Task 4 ----------
     static void countTags() {
         String url = readNotEmpty("Page URL (e.g. https://example.com): ");
         try {

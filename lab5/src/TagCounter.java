@@ -17,7 +17,7 @@ public class TagCounter {
 
         HashMap<String, Integer> counts = new HashMap<>();
         Matcher matcher = TAG.matcher(html);
-        while (matcher.find()) {
+        while (matcher.find()) { 
             String tag = matcher.group(1).toLowerCase();
             counts.put(tag, counts.getOrDefault(tag, 0) + 1);
         }
