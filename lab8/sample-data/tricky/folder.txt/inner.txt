@@ -1,0 +1,1 @@
+inner file inside folder.txt, must be scanned as a file in a directory: many more moments

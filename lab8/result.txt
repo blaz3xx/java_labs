@@ -1,0 +1,12 @@
+Words starting with 'a' in text files of C:\Users\Artem\Desktop\KPI\java_labs\lab8\sample-data
+fruits\apples.txt: 7
+fruits\tropical\banana.txt: 3
+fruits\tropical\mango.txt: 1
+languages\french.txt: 1
+notes.TXT: 3
+science\chemistry\lab-report.txt: 2
+science\physics.txt: 4
+story.txt: 6
+tricky\broken-bytes.txt: 2
+tricky\folder.txt\inner.txt: 3
+Files with matches: 10 of 15, total words: 32
